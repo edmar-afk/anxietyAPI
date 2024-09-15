@@ -12,3 +12,6 @@ class UserSerializer(serializers.ModelSerializer):
         user = User.objects.create_user(**validated_data)
         return user
 
+
+class ChatbotSerializer(serializers.Serializer):
+    question = serializers.CharField()

@@ -1,0 +1,43 @@
+{	"questions": [
+		{
+			"question": "What is stress?",
+			"answer": "Stress is the body's response to any demand or challenge, often triggered by events or thoughts that make you feel frustrated, angry, or anxious."
+		},
+		{
+			"question": "What are common causes of stress?",
+			"answer": "Common causes include work pressure, financial problems, health issues, relationship conflicts, and major life changes."
+		},
+		{
+			"question": "How can deep breathing help reduce stress?",
+			"answer": "Deep breathing helps activate the body’s relaxation response, reducing the heart rate and lowering blood pressure, which can calm your mind."
+		},
+		{
+			"question": "What role does physical exercise play in stress management?",
+			"answer": "Exercise reduces stress hormones and triggers the release of endorphins, which are natural mood lifters, helping to reduce tension."
+		},
+		{
+			"question": "Can meditation help manage stress?",
+			"answer": "Yes, meditation helps focus your attention and eliminate the stream of jumbled thoughts that may be crowding your mind, leading to stress reduction."
+		},
+		{
+			"question": "What are some signs of chronic stress?",
+			"answer": "Signs of chronic stress include headaches, sleep problems, irritability, fatigue, and difficulty concentrating."
+		},
+		{
+			"question": "How does time management reduce stress?",
+			"answer": "Effective time management helps you prioritize tasks, avoid last-minute rushes, and reduce feelings of overwhelm, making it easier to stay calm."
+		},
+		{
+			"question": "Can a healthy diet help reduce stress?",
+			"answer": "Yes, a healthy diet supports your body by stabilizing blood sugar levels, providing energy, and supporting brain function, all of which can improve mood and reduce stress."
+		},
+		{
+			"question": "How can talking to someone help alleviate stress?",
+			"answer": "Talking to someone can provide emotional support, perspective, and solutions that may help you cope better with stress."
+		},
+		{
+			"question": "What are relaxation techniques for stress relief?",
+			"answer": "Relaxation techniques include activities such as yoga, tai chi, progressive muscle relaxation, and visualization, all of which can help calm the mind."
+		}
+	]
+}
