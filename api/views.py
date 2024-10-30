@@ -17,12 +17,12 @@ from rest_framework.generics import RetrieveAPIView
 
 
 
-UserModel = get_user_model()
-import json
-from difflib import get_close_matches
+import spacy
+from rest_framework import viewsets, status
+from rest_framework.response import Response
 from django.conf import settings
+import json
 import os
-BASE_DIR = settings.BASE_DIR
 
 class CreateUserView(generics.CreateAPIView):
     queryset = User.objects.all()
@@ -53,43 +53,66 @@ class UserDetailView(generics.RetrieveAPIView):
 
 
 
-# Load the knowledge base from a JSON file
+
+
+
+
+# Load spaCy language model
+model_path = os.path.join(settings.BASE_DIR, 'en_core_web_md')
+nlp = spacy.load(model_path) if os.path.exists(model_path) else spacy.load("en_core_web_md")
+
+BASE_DIR = settings.BASE_DIR
+
+# Load knowledge base from a JSON file
 def load_knowledge_base(file_path: str):
     full_path = os.path.join(BASE_DIR, file_path)
     with open(full_path, 'r') as file:
         data = json.load(file)
     return data
 
-# Save the updated knowledge base to the JSON file
-def save_knowledge_base(file_path: str, data: dict):
-    full_path = os.path.join(BASE_DIR, file_path)
-    with open(full_path, 'w') as file:
-        json.dump(data, file, indent=2)
-
-
-def find_best_match(user_question: str, questions: list[str]) -> str | None:
-    matches = get_close_matches(user_question, questions, n=1, cutoff=0.6)
-    return matches[0] if matches else None
-
+# Get the answer for a specific question
 def get_answer_for_question(question: str, knowledge_base: dict) -> str | None:
     for q in knowledge_base["questions"]:
         if q["question"] == question:
             return q["answer"]
     return None
 
+# Find the best match using spaCy similarity
+def find_best_match(user_question: str, questions: list[str]) -> str | None:
+    user_question_doc = nlp(user_question)
+    best_match = None
+    best_similarity = 0.6  # Adjust the threshold as needed
+
+    for question in questions:
+        question_doc = nlp(question)
+        similarity = user_question_doc.similarity(question_doc)
+        if similarity > best_similarity:
+            best_similarity = similarity
+            best_match = question
+
+    return best_match
+
 class ChatbotViewSet(viewsets.ViewSet):
+    # Your ChatbotSerializer here
     serializer_class = ChatbotSerializer
+    authentication_classes = []
+    permission_classes = [AllowAny]
 
     def create(self, request, *args, **kwargs):
         serializer = self.serializer_class(data=request.data)
         if serializer.is_valid():
             user_question = serializer.validated_data['question']
             knowledge_base = load_knowledge_base('knowledge_base.json')
-            best_match = find_best_match(user_question, [q["question"] for q in knowledge_base["questions"]])
+            questions = [q["question"] for q in knowledge_base["questions"]]
+            best_match = find_best_match(user_question, questions)
 
             if best_match:
                 answer = get_answer_for_question(best_match, knowledge_base)
-                return Response({'answer': answer}, status=status.HTTP_200_OK)
+                if answer:
+                    formatted_answer = answer.replace('|', '\n').strip()
+                    return Response({'answer': formatted_answer}, status=status.HTTP_200_OK)
+                else:
+                    return Response({'answer': "No answer found."}, status=status.HTTP_200_OK)
             else:
-                return Response({'answer': "I don't understand the question."}, status=status.HTTP_200_OK)
+                return Response({'answer': "Sorry, I didn't understand the question."}, status=status.HTTP_200_OK)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)

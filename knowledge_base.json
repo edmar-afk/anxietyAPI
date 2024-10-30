@@ -1,4 +1,15 @@
-{	"questions": [	{		"question": "What is stress?",		"answer": "Stress is the body's response to any demand or challenge, often triggered by events or thoughts that make you feel frustrated, angry, or anxious."	},	{		"question": "What are common causes of stress?",		"answer": "Common causes include work pressure, financial problems, health issues, relationship conflicts, and major life changes."	},	{		"question": "How can deep breathing help reduce stress?",		"answer": "Deep breathing helps activate the body’s relaxation response, reducing the heart rate and lowering blood pressure, which can calm your mind."
+{	"questions": [
+	{
+		"question": "What is stress?",
+		"answer": "Stress is the body's response to any demand or challenge, often triggered by events or thoughts that make you feel frustrated, angry, or anxious."
+	},
+	{
+		"question": "What are common causes of stress?",
+		"answer": "Common causes include work pressure, financial problems, health issues, relationship conflicts, and major life changes."
+	},
+	{
+		"question": "How can deep breathing help reduce stress?",
+		"answer": "Deep breathing helps activate the body’s relaxation response, reducing the heart rate and lowering blood pressure, which can calm your mind."
 	},
 	{
 		"question": "What role does physical exercise play in stress management?",
@@ -891,21 +902,402 @@
 	{
 		"question": "What are the symptoms of stress?",
 		"answer": "The symptoms of stress are the following irritability, inability to focus, fatigue, weight loss /overweight, insomnia, headaches, muscle pains."
-	},{
+	},
+	{
 		"question": "How do you identify that the child is stressed?",
 		"answer": " Poor academic performance, in ability to concentrate, unable to maintain good relationships around them."
-	},{
+	},
+	{
 		"question": "How to manage stress to avoid that scenario?",
 		"answer": "Avoid procrastination, maintain a balance lifestyle, prioritize important tasks and focus on planned goals."
-	},{
+	},
+	{
 		"question": "Do we hove a record of our student being seen by the guidance counselor for stress?",
 		"answer": "Yes, several students visited the office for Counseling because they felt stressful with their academic and personal lives."
-	},{
+	},
+	{
 		"question": "What interventions did the school implement to help manage their stress?",
 		"answer": "In the guidance office, we conduct stress management training workshops. conduct individual or goup consultations and mental health and wellness activities like indoor games, zumba, meditation. we conduct needs assessment inventory based training to give students tips to combat stress and we inform them the different techniques and strategies to prevent acquiring health problems among JHCSC students."
-	},{
+	},
+	{
 		"question": "hi",
 		"answer": "hi"
+	},
+	{
+		"question": "What are the different types of stress?",
+		"answer": "There are two main types: Eustress (positive stress) which can motivate and energize, and Distress (negative stress) which can be overwhelming and harmful."
+	},
+	{
+		"question": "What causes stress?",
+		"answer": "Stressors can be anything that demands your body or mind. Examples include work deadlines, financial problems, relationship issues, health concerns, and major life changes."
+	},
+	{
+		"question": "What are the physical symptoms of stress?",
+		"answer": "Physical symptoms include headaches, muscle tension, fatigue, digestive problems, sleep disturbances, and changes in appetite."
+	},
+	{
+		"question": "What are the mental symptoms of stress?",
+		"answer": "Mental symptoms include irritability, anxiety, difficulty concentrating, forgetfulness, and feeling overwhelmed."
+	},
+	{
+		"question": "How can I tell if I'm stressed?",
+		"answer": "Pay attention to your body and mind. If you experience frequent or intense symptoms that interfere with your daily life, you might be dealing with stress."
+	},
+	{
+		"question": "What are some ways to manage stress?",
+		"answer": "There are many effective stress management techniques, including exercise, relaxation techniques, time management, setting boundaries, and seeking support."
+	},
+	{
+		"question": "What are some relaxation techniques for stress?",
+		"answer": "Relaxation techniques include deep breathing exercises, meditation, yoga, progressive muscle relaxation, and listening to calming music."
+	},
+	{
+		"question": "What are some lifestyle changes that can help reduce stress?",
+		"answer": "Lifestyle changes include regular exercise, getting enough sleep, eating a healthy diet, limiting caffeine and alcohol, and practicing mindfulness."
+	},
+	{
+		"question": "When should I seek professional help for stress?",
+		"answer": "If your stress is severe, persistent, or interfering with your daily life, it's important to seek professional help from a therapist or counselor."
+	},
+	{
+		"question": "Can stress be a sign of a medical condition?",
+		"answer": "Yes, stress can sometimes be a symptom of an underlying medical condition, such as thyroid problems, heart disease, or vitamin deficiencies."
+	},
+	{
+		"question": "What is the best way to cope with stress?",
+		"answer": "The best way to cope with stress is to find what works best for you. This may involve a combination of relaxation techniques, lifestyle changes, and professional support."
+	},
+	{
+		"question": "What is the best way to deal with stress?",
+		"answer": "The best way to deal with stress is to find what works best for you. There is no one-size-fits-all solution, but it's important to find healthy ways to manage your stress and seek professional help when needed."
+	},
+	{
+		"question": "What role does sleep play in stress?",
+		"answer": "Adequate sleep helps regulate mood and improve cognitive function, reducing overall stress levels."
+	},
+	{
+		"question": "Can stress lead to physical health problems?",
+		"answer": "Yes, chronic stress can contribute to conditions like heart disease, hypertension, obesity, and diabetes."
+	},
+	{
+		"question": "What is the stress response?",
+		"answer": "The stress response, or fight-or-flight response, is the body’s way of reacting to perceived threats, involving hormone release and physiological changes."
+	},
+	{
+		"question": "What are some relaxation techniques?",
+		"answer": "Relaxation techniques include yoga, meditation, deep breathing exercises, and progressive muscle relaxation."
+	},
+	{
+		"question": "How can time management reduce stress?",
+		"answer": "Effective time management helps prioritize tasks, reducing feelings of overwhelm and creating a sense of control."
+	},
+	{
+		"question": "What should you avoid when stressed?",
+		"answer": "Avoid excessive caffeine, alcohol, drugs, and unhealthy coping mechanisms like overeating or isolating."
+	},
+	{
+		"question": "Can stress make me sick?",
+		"answer": "Yes, stress can weaken your immune system, making you more susceptible to colds, flu, and other illnesses."
+	},
+	{
+		"question": "How can I protect my health from stress?",
+		"answer": "Practice healthy stress management techniques, prioritize self-care, and seek professional help when needed."
+	},
+	{
+		"question": "How can stress affect my relationships?",
+		"answer": "Stress can lead to irritability, communication problems, withdrawal, and difficulty expressing emotions, which can strain relationships."
+	},
+	{
+		"question": "How can I talk to my partner about my stress?",
+		"answer": "Be open and honest about your stress levels and how it's affecting you. Ask for their support and understanding."
+	},
+	{
+		"question": "How can I support a loved one who is stressed?",
+		"answer": "Offer a listening ear, encourage them to practice self-care, and help them find ways to manage their stress."
+	},
+	{
+		"question": "How can stress affect my work performance?",
+		"answer": "Stress can lead to difficulty concentrating, procrastination, decreased productivity, and burnout."
+	},
+	{
+		"question": "What are some tips for managing stress at work?",
+		"answer": "Tips include taking breaks, setting realistic goals, prioritizing tasks, delegating when possible, and seeking support from colleagues."
+	},
+	{
+		"question": "I feel overwhelmed with my work. What should I do?",
+		"answer": "Take a few deep breaths and try to break down your tasks into smaller, manageable steps. Prioritize what’s most important and focus on one thing at a time."
+	},
+	{
+		"question": "How can I stop overthinking things?",
+		"answer": "Try to redirect your mind to something you enjoy, like a hobby or physical activity. Mindfulness exercises, such as focusing on your breath, can also help reduce overthinking."
+	},
+	{
+		"question": "I’m really stressed about an upcoming exam. Any advice?",
+		"answer": "Prepare as best as you can and make sure to take breaks while studying. Get enough sleep the night before, and remind yourself that you've prepared well."
+	},
+	{
+		"question": "I can't seem to calm down. Any tips for immediate relief?",
+		"answer": "Try deep breathing exercises: inhale slowly, hold, and exhale slowly. Progressive muscle relaxation can also be effective in calming your body and mind."
+	},
+	{
+		"question": "How can I manage stress at work?",
+		"answer": "Set boundaries for yourself, take regular breaks, and focus on tasks one at a time. Communicate with your colleagues if you feel overwhelmed—they may be able to help."
+	},
+	{
+		"question": "I'm feeling anxious about social gatherings. What should I do?",
+		"answer": "Start by setting small goals, like talking to one new person. Remind yourself that most people are friendly and understanding, and it’s okay to take breaks if needed."
+	},
+	{
+		"question": "How do I stop comparing myself to others?",
+		"answer": "Focus on your own achievements and what makes you unique. Practicing gratitude and self-acceptance can help shift your mindset away from comparisons."
+	},
+	{
+		"question": "What should I do if I feel stressed out every day?",
+		"answer": "Develop a daily routine that includes relaxation activities like exercise, reading, or meditating. Try journaling to identify stressors and work on managing them step-by-step."
+	},
+	{
+		"question": "How can I sleep better when I’m anxious?",
+		"answer": "Create a calming bedtime routine, avoid screens before bed, and try relaxing techniques like deep breathing or listening to soothing sounds."
+	},
+	{
+		"question": "What should I do if I feel like I'm going to have a panic attack?",
+		"answer": "Ground yourself by focusing on your surroundings and taking slow, deep breaths. Remind yourself that this feeling will pass and try to focus on something calming."
+	},
+	{
+		"question": "I'm stressed about money. How can I cope?",
+		"answer": "Make a budget to help you manage expenses and feel more in control. Setting small financial goals can make the situation feel more manageable."
+	},
+	{
+		"question": "How can I stop feeling guilty about resting?",
+		"answer": "Remind yourself that rest is essential for productivity and well-being. Taking breaks can help you recharge and be more effective when you return to tasks."
+	},
+	{
+		"question": "What can I do if I’m feeling unmotivated and anxious?",
+		"answer": "Break tasks down into small steps, set achievable goals, and celebrate each accomplishment. Sometimes starting small can help build momentum and reduce anxiety."
+	},
+	{
+		"question": "I feel anxious in new situations. How do I cope?",
+		"answer": "Prepare yourself by visualizing the situation in a positive way. Take deep breaths, focus on staying present, and remind yourself that it's normal to feel nervous."
+	},
+	{
+		"question": "How can I manage stress when I have no control over the situation?",
+		"answer": "Focus on what you can control, like your reactions and coping strategies. Practicing acceptance and letting go can help you feel more at peace."
+	},
+	{
+		"question": "I'm worried about my future. How can I stop stressing?",
+		"answer": "Set small, actionable goals and focus on what you can do in the present. Remember, it's okay to not have everything figured out; take things one step at a time."
+	},
+	{
+		"question": "How do I handle anxiety when meeting new people?",
+		"answer": "Take it slow, ask questions to focus on the other person, and remind yourself that people are generally welcoming. Practice self-compassion if you feel nervous."
+	},
+	{
+		"question": "What should I do when I feel stress in my body?",
+		"answer": "Try progressive muscle relaxation or deep breathing to help release physical tension. A short walk or stretching can also help alleviate physical symptoms of stress."
+	},
+	{
+		"question": "How can I stay calm during a difficult conversation?",
+		"answer": "Stay focused on your breathing, keep a calm tone, and listen actively. Remind yourself that you don’t need to have all the answers and can always take a pause if needed."
+	},
+	{
+		"question": "What can I do if I feel anxious about making a big decision?",
+		"answer": "List the pros and cons, gather as much information as you can, and take your time. Trust yourself to make the best choice with the information available."
+	},
+	{
+		"question": "How can I stop feeling anxious when trying something new?",
+		"answer": "Start small and focus on the positive aspects of the new experience. Remind yourself that it’s okay not to be perfect and that every attempt is a step forward."
+	},
+	{
+		"question": "I'm worried about making mistakes. How do I manage this anxiety?",
+		"answer": "Mistakes are a natural part of learning. Focus on what you can learn from each experience, and try not to be too hard on yourself."
+	},
+	{
+		"question": "How can I deal with the pressure of high expectations?",
+		"answer": "Communicate your boundaries and remember that it's okay to say no. Focus on what you can realistically achieve and celebrate small successes along the way."
+	},
+	{
+		"question": "What should I do if I feel anxious about my health?",
+		"answer": "Stick to a balanced lifestyle with regular check-ups. Focus on what you can control, like maintaining a healthy diet and exercise, and avoid excessive worrying."
+	},
+	{
+		"question": "How do I cope with anxiety about traveling?",
+		"answer": "Plan ahead and create a comfortable travel routine. Breathing exercises and distractions like music or books can also help calm your nerves."
+	},
+	{
+		"question": "I feel overwhelmed by my to-do list. What can I do?",
+		"answer": "Prioritize tasks and break down each item into smaller, manageable steps. Start with one thing at a time and don’t hesitate to ask for help."
+	},
+	{
+		"question": "How do I handle the fear of public speaking?",
+		"answer": "Practice as much as possible and visualize yourself succeeding. Deep breathing and grounding exercises can help reduce anxiety before speaking."
+	},
+	{
+		"question": "What should I do when I'm anxious about time management?",
+		"answer": "Create a realistic schedule, setting aside time for breaks. Focus on one task at a time, and remember that it’s okay if everything isn’t completed immediately."
+	},
+	{
+		"question": "How can I handle anxiety about big life changes?",
+		"answer": "Break down the change into smaller steps and focus on one day at a time. Practice self-compassion and remember it’s okay to feel uneasy during transitions."
+	},
+	{
+		"question": "I get nervous meeting deadlines. How can I manage this stress?",
+		"answer": "Start tasks early, break them down into steps, and reward yourself for progress. Try to avoid procrastination by focusing on one step at a time."
+	},
+	{
+		"question": "What if I feel overwhelmed by social media?",
+		"answer": "Set time limits for social media usage and take breaks if needed. Focus on real-life connections and remember that social media doesn’t reflect the full reality."
+	},
+	{
+		"question": "How do I handle anxiety about my appearance?",
+		"answer": "Focus on qualities you appreciate about yourself. Practicing self-kindness and limiting comparison to others can help you feel more confident."
+	},
+	{
+		"question": "What should I do if I'm feeling lonely and anxious?",
+		"answer": "Reach out to friends or family, or consider joining a hobby group. Engaging in activities you enjoy can help you build connections and ease loneliness."
+	},
+	{
+		"question": "I often feel anxious about my future career. Any advice?",
+		"answer": "Set small, achievable goals that align with your career path. Focus on what you can control and take it one step at a time."
+	},
+	{
+		"question": "What can I do if I feel anxious about a family gathering?",
+		"answer": "Focus on enjoying the moment, setting boundaries if needed, and taking breaks if you feel overwhelmed. It’s okay to step away when you need space."
+	},
+	{
+		"question": "How do I handle stress about making a major purchase?",
+		"answer": "Take your time to research and weigh the pros and cons. Set a budget and only proceed when you feel confident in your decision."
+	},
+	{
+		"question": "How can I stop dwelling on negative thoughts?",
+		"answer": "Practice mindfulness by focusing on the present. Engage in activities that make you happy and remind yourself that thoughts are not facts."
+	},
+	{
+		"question": "I'm anxious about speaking my mind. How do I cope?",
+		"answer": "Start by expressing your feelings in low-pressure settings. Gradually build confidence by reminding yourself that your opinions are valid."
+	},
+	{
+		"question": "How can I handle stress from juggling work and personal life?",
+		"answer": "Set clear boundaries between work and personal time. Prioritize self-care and ensure you have some downtime to recharge."
+	},
+	{
+		"question": "What if I feel anxious about managing finances?",
+		"answer": "Set a realistic budget and track expenses. Focus on small financial goals to make things more manageable and reduce stress."
+	},
+	{
+		"question": "How do I deal with anxiety before a big meeting?",
+		"answer": "Prepare as best as you can and practice speaking points. Remind yourself that you've done your best and focus on staying calm and present."
+	},
+	{
+		"question": "What should I do if I worry about what people think of me?",
+		"answer": "Remind yourself that everyone has unique strengths and that it's impossible to please everyone. Focus on staying true to yourself."
+	},
+	{
+		"question": "How do I handle stress when there's too much to do?",
+		"answer": "Focus on one task at a time and prioritize. Don’t hesitate to ask for help if you need it, and remember it’s okay if not everything gets done immediately."
+	},
+	{
+		"question": "What can I do if I feel anxious in a crowd?",
+		"answer": "Find a quiet spot if possible and focus on grounding yourself with deep breaths. Remind yourself that it’s okay to step away if you need a break."
+	},
+	{
+		"question": "How can I stop panicking about small things?",
+		"answer": "Try to see the bigger picture and remind yourself that small setbacks are normal. Practice self-compassion and remember that perfection isn’t necessary."
+	},
+	{
+		"question": "I'm nervous about starting a new job. Any tips?",
+		"answer": "Remember that everyone feels nervous starting something new. Focus on being open and learning as you go. Give yourself time to adjust."
+	},
+	{
+		"question": "How do I calm myself when I feel out of control?",
+		"answer": "Take slow, deep breaths and focus on one thing you can control. Grounding exercises, like focusing on your surroundings, can also help."
+	},
+	{
+		"question": "What can I do if I worry about the opinions of others?",
+		"answer": "Practice self-compassion and remember that you can't control what others think. Focus on being true to yourself and what makes you happy."
+	},
+	{
+		"question": "How do I handle the anxiety of a performance review?",
+		"answer": "Prepare by reflecting on your accomplishments and areas for growth. Remind yourself that feedback helps you improve, and it’s a learning opportunity."
+	},
+	{
+		"question": "How do I manage stress from overworking?",
+		"answer": "Set clear work boundaries and prioritize self-care. Take breaks throughout the day and disconnect from work when you can to recharge."
+	},
+	{
+		"question": "How can I handle anxiety when starting a new relationship?",
+		"answer": "Take things one step at a time and communicate openly with your partner. Focus on building trust gradually and give yourself time to adjust."
+	},
+	{
+		"question": "What should I do if I feel anxious about asking for help?",
+		"answer": "Remember that asking for help is a sign of strength. Start by asking for small assistance, and gradually build comfort in seeking support."
+	},
+	{
+		"question": "I’m stressed about meeting new people. Any tips?",
+		"answer": "Start small and be yourself. Focus on listening to others, which can help shift attention away from your own anxiety."
+	},
+	{
+		"question": "How do I stop worrying about past mistakes?",
+		"answer": "Acknowledge what happened and focus on what you learned. Remind yourself that everyone makes mistakes, and forgive yourself as you move forward."
+	},
+	{
+		"question": "What should I do if I feel anxious about a big change in my life?",
+		"answer": "Take it one day at a time, set realistic goals, and focus on the positives. Lean on supportive people in your life to help you through the transition."
+	},
+	{
+		"question": "How can I deal with anxiety about handling new responsibilities?",
+		"answer": "Break down each task into small steps, and focus on one step at a time. Remind yourself that it’s okay to ask for help and take things slowly."
+	},
+	{
+		"question": "How do I stop feeling anxious about making a good impression?",
+		"answer": "Be yourself and focus on building connections rather than trying to impress. People appreciate authenticity, so let your personality shine."
+	},
+	{
+		"question": "What should I do if I feel anxious about unexpected changes?",
+		"answer": "Try to stay flexible and focus on adapting to the situation. Remind yourself that change is a part of life and that you have the resilience to adjust."
+	},
+	{
+		"question": "I get nervous about making commitments. Any advice?",
+		"answer": "Consider commitments carefully and be honest with yourself about your limits. It's okay to say no if something doesn’t align with your priorities."
+	},
+	{
+		"question": "What if I feel anxious about setting boundaries?",
+		"answer": "Practice small boundary-setting steps and remind yourself that boundaries are healthy. Communicate your needs clearly and remember it’s okay to prioritize yourself."
+	},
+	{
+		"question": "How can I cope with anxiety about a health diagnosis?",
+		"answer": "Focus on what you can control and take one step at a time. Lean on your support network, and try to stay informed without overwhelming yourself."
+	},
+	{
+		"question": "What can I do if I feel anxious in a new city?",
+		"answer": "Explore your new surroundings at your own pace. Find places that make you feel comfortable and reach out to locals or support groups if you need guidance."
+	},
+	{
+		"question": "How do I calm myself if I worry about things going wrong?",
+		"answer": "Focus on the present moment and remind yourself that worrying doesn’t change outcomes. Prepare where you can and let go of what’s beyond your control."
+	},
+	{
+		"question": "How do I handle stress about setting personal goals?",
+		"answer": "Set small, achievable goals and focus on progress rather than perfection. Celebrate each milestone and be kind to yourself along the way."
+	},
+	{
+		"question": "How can I calm my nerves before a big presentation?",
+		"answer": "Practice your material, visualize success, and use deep breathing to stay calm. Remind yourself that you’ve prepared and can handle this."
+	},
+	{
+		"question": "What if I feel overwhelmed by responsibilities?",
+		"answer": "Prioritize tasks based on urgency, delegate when possible, and take breaks to recharge. Remember that it’s okay to ask for help when you need it."
+	},
+	{
+		"question": "I’m worried about trying something I’ve never done before. Any advice?",
+		"answer": "Start with small steps and give yourself permission to be a beginner. Remind yourself that every new experience is a learning opportunity."
+	},
+	{
+		"question": "How do I deal with the fear of being judged?",
+		"answer": "Focus on being true to yourself, and remember that everyone experiences insecurity. Surround yourself with supportive people who appreciate you for who you are."
+	},
+	{
+		"question": "How do I calm myself after a stressful day?",
+		"answer": "Engage in activities you enjoy, like reading or exercising, to unwind. Practicing gratitude and journaling can also help you process the day."
 	}
 ]
 }
